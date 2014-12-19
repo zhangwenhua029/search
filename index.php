@@ -1,7 +1,7 @@
 <?php
 session_start ();
 header ( "Content-Type:text/html;charset=utf-8" );
-include '../php/database.php';
+include '../php/database.php';//数据库文件
 error_reporting ( E_ALL ^ E_NOTICE );
 if (! isset ( $_SESSION ['login'] )) {
 	$_SESSION ['login'] = 0;
