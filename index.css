@@ -1,0 +1,196 @@
+@FONT-FACE {
+	font-family: Jay;
+	src: url("font/cambriaz.ttf");
+}
+
+@MEDIA {
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	color: #B5D3E5;
+	font-family: Jay;
+	font-size: large;
+	border: none;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:HOVER {
+	color: #C4E9E0;
+}
+
+ul {
+	list-style: none;
+}
+
+ul li {
+	float: left;
+}
+
+ul li a {
+	display: block;
+	min-width: 200px;
+	min-height: 40px;
+	line-height: 40px;
+	text-align: left;
+	border-radius: 3px;
+}
+
+ul li a:HOVER {
+	background: #007070;
+}
+
+table {
+	margin: auto;
+}
+
+table th {
+	width: 200px;
+	background: #007070;
+	line-height: 40px;
+}
+
+table td {
+	line-height: 30px;
+	width: 200px;
+	text-align: center;
+}
+
+input, textarea {
+	background: #007070;
+	border: 1px dashed white;
+}
+
+.check, button {
+	background: #006674;
+	cursor: pointer;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 3px;
+	text-align: center;
+	padding: 0 20px;
+	margin: 0 3px;
+}
+
+div {
+	border-radius: 3px;
+}
+
+body {
+	background-color: #009191;
+}
+
+/* 
+border:1px dotted white; 
+*/
+.title {
+	height: 50px;
+	width: 100%;
+	background: #00AD92;
+	position: fixed;
+	top: 0;
+	left: 0;
+	text-align: center;
+	line-height: 50px;
+	z-index: 1000;
+}
+
+.leftnav {
+	width: 250px;
+	min-height: 500px;
+	position: absolute;
+	margin-top: 60px;
+	left: 50%;
+	margin-left: -500px;
+	background: #00AD92;
+}
+
+.content {
+	width: 700px;
+	min-height: 500px;
+	position: absolute;
+	margin-top: 60px;
+	right: 50%;
+	margin-right: -500px;
+	background: #00AD92;
+	padding: 40px 20px;
+	text-align: center;
+}
+
+.leftnav h2 {
+	margin: 20px;
+}
+
+.leftnav ul li a {
+	width: 210px;
+	padding-left: 40px;
+}
+
+.content .manage {
+	width: 300px;
+	min-height: 100px;
+	margin: 20px auto;
+	background: #418C88;
+	text-align: center;
+	padding: 50px;
+}
+
+.content .search {
+	width: 500px;
+	height: 400px;
+	text-align: left;
+	padding-left: 150px;
+	background: none;
+}
+
+.content .search .searchinput {
+	width: 300px;
+	height: 40px;
+	line-height: 40px;
+}
+
+.content .search .searchbutton {
+	height: 40px;
+	line-height: 40px;
+}
+
+.content .search .searchbutton span {
+	width: 40px;
+	height: 40px;
+	float: left;
+	background: url("../icons/MAGNIFYING GLASS.svg");
+}
+
+.content .search .search_result {
+	width: 300px;
+}
+
+.content .search .search_result ul li a {
+	width: 300px;
+	height: 40px;
+	overflow: hidden;
+	background: #418C88;
+}
+
+.content .search .search_result ul li a:HOVER {
+	background: #007070;
+}
+
+.content #search_result {
+	width: 400px;
+	min-height: 400px;
+}
+
+.content #search_result .result_show {
+	width: 300px;
+	margin: 30px auto;
+}
+
+.content #search_result .result_show ul li a {
+	width: 300px;
+}

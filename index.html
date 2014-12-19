@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- <meta http-equiv="refresh" content="3;url=index.php"> -->
+<title>index.HTML</title>
+<link rel="stylesheet " type="text/css" href="index.css">
+<script src="jquery-2.1.1.min.js"></script>
+<script src="index.js"></script>
+</head>
+<body>
+
+	<div class="title" id="title">
+		<a class="loginname">登陆名</a>
+		<button class="index">首页</button>
+		<button class="login">登陆</button>
+		<button class="exit">退出</button>
+		<button class="test">测试</button>
+	</div>
+
+	<div class="leftnav" id="leftnav">	
+		<ul class="mana">
+			<li><h2>管理操作</h2></li>
+			<li><a rel="1">管理员操作</a></li>
+			<li><a rel="1">塔尖操作</a></li>
+		</ul>
+		<ul class="scan">
+			<li><h2>用户操作</h2></li>
+			<li><a rel="">搜索投票</a></li>
+		</ul>
+	</div>
+
+	<div class="content" id="content">
+		<div class="manage" id="welcome">
+			<h1>Welcome</h1>
+		</div>
+		
+		<div class="manage" id="login">
+			<h1>登陆</h1>
+			<br> <br> 账号:<input class="name" type="text"><br>
+			<br> <br> 密码:<input class="passport" type="password"><br>
+			<br> <input class="check submit" type="button" value="登陆">
+			<input class="check" type="reset" value="重置">
+		</div>
+
+		<div class="manage search" id="search">
+			<input class="searchinput" type="text">
+			<button class="searchbutton">
+				<span></span>搜索
+			</button>
+			<div class="search_result">
+				<ul>
+					<!-- <li><a rel="">ddd</a></li>-->
+				</ul>
+			</div>
+		</div>
+
+		<div class="manage " id="search_result">
+			<h1>hhh</h1>
+			<div class="result_show">
+				<ul>
+					<!-- <li><a rel="">ddd</a></li>-->
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+
+
+
+</body>
+</html>
